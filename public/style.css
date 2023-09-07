@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Navbar{
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue;
+    height: 100vh;
+    width: 40vh;
+}
+
+.Banner{
+    background-color: black;
+    opacity: 0.9;
+    height: 55vh;
+    width: 60vw;
+}
+
+.Movies{
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue;
+    height: 40vh;
+    width: 60vw;
+}
+
+
+#toplayer{
+    display: flex;
+}
+#back{
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+#back p{
+    position: relative;
+    bottom: 5px;
+    right: 4px;
+    font-weight: bolder;
+}
+
+#notification{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    left:730px;     
+}
+#search{
+    position: relative;
+    top: 35px;
+    left:670px;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(57, 52, 52);
+}
+#profile{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+    left:780px;
+}
+#profile img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.btn-danger{
+    position: relative;
+    bottom: 55px;
+    left: 50px;
+    z-index: 10;
+    width: 125px;
+    background: red;
+}
+.Banner img{
+    height: 80%;
+    width: 80vw;
+    position: relative;
+    top: 36px;
+}
+
+
+
+.Movies h3{
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.Movies #list{
+    position: relative;
+    bottom: 20px;
+    left: 900px;
+}
+.displayMovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70vw;
+    height: 30vh;
+}
+.displayMovies div{
+    margin: 5px;
+}
+.Cards{
+    height: 30vh;
+    width: 120px;
+    background-color: rgb(57, 52, 52);
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.Cards #photo{
+    height: 120px;
+    width: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    left: px;
+}
+.Cards #title{
+    text-align: center;
+    font-size: medium;
+}
+.Cards #description {
+    text-align: center;
+    font-size: small;
+}
+.Cards #name{
+    position:relative;
+    bottom: 25px;
+    left: 5px;
+    text-align: center;
+    font-size:x-small
+}
+.Cards #producer{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+}
+
+
+
+.Navbar #id{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 32px;
+    left: 30px;
+}
+.Navbar #id img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.Navbar h3{
+    position: relative;
+    left: 100px;
+    color: red;
+}
+.Navbar .navItems{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Navbar .navItems div{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    top: 50px;
+}
+.Navbar .navItems div:hover{
+    background: red;
+    border-radius: 10%;
+}.Navbar .navItems div h5{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.searchBar{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 100vw;
+   
+}
+.searchBar h4{
+    color: red;
+    margin: 20px ;
+    margin-left: 100px;
+}
+.searchBar input{
+    align-self: center;
+    margin: auto;
+    width: 73vw;
+    height: 60px;
+    margin-top: 0;
+    margin-left: 80px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#profile2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left:1313px;
+    top: 5px;
+}
+#profile2 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.Navbar2{
+    background-color: black;
+    opacity: 1;
+    color: aliceblue;
+    height: 100vh;
+    width: 40vh;
+    position: relative;
+    top: 35px;
+}
+.Navbar2 .navItems2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Navbar2 .navItems2 div{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    top: 50px;
+}
+.Navbar2 .navItems2 div:hover{
+    background-color: rgb(57, 52, 52);
+    border-radius: 10%;
+}.Navbar2 .navItems2 div h5{
+    padding: 10px
+}
+
+
+
+.Movies2{
+    background-color: rgb(57, 52, 52);
+    opacity: 0.9;
+    color: aliceblue;
+    height: 100vh;
+    width: 79vw;
+}
+.Movies2 h3{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    margin: 20px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.displayMovies2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.SearchPageCards{
+    box-shadow: 2px 2px 5px black;
+}
